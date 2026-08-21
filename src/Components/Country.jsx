@@ -1,20 +1,14 @@
-import { useState } from "react";
 import "../App.css";
 
 
-function Country() {
-    const [name] = useState('United States');
-    const [gold, setGold] = useState(0);
-
-    const handleClick = () => {
-        setGold(gold + 1);
-    };
-
+function Country({id, name, gold, onDelete}) {
     return (
-        <div>
-            <span className="medal-text">{name} gold medals: {gold}</span>
-            <button className='medal-button' onClick={handleClick}>+</button>
-           <hr/>
+        <div className ='country-card'>
+            <div className ='country-header'>
+            <h2>{name}</h2>
+            <button className='delete-button' onClick={() =>onDelete(id)}>🗑</button>
+           </div>
+           <p>Gold Medals: {gold}</p>
         </div>
     );
 }
