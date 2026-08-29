@@ -38,3 +38,17 @@
   padding: 0 15px;
   font-size: 16px;
 }
+.medal-btn {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  border: 1px solid #999;
+  background-color: #eee;
+  cursor: pointer;
+  margin: 0 4px;
+}
+
+.medal-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
