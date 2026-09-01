@@ -1,5 +1,6 @@
 import { useState, useRef } from "react";
 import Country from "./components/Country";
+import NewCountry from "./Components/NewCountry";
 
 function App() {
    const [countries, setCountries] = useState([
@@ -40,6 +41,17 @@ function App() {
 
     const grandTotal = getTotalMedalCount("gold") + getTotalMedalCount("silver") + getTotalMedalCount("bronze");
 
+    const handleAddCountry = (name) => {
+        const newCountry = {
+            id: Date.now(),
+            name: name,
+            gold: 0,
+            silver: 0,
+            bronze: 0
+        };
+        setCountries([...countries, newCountry]);
+    };
+
     return (
         <div>
             <h1>Olympic Medals {grandTotal}</h1>
@@ -53,6 +65,9 @@ function App() {
                     onDecrement={handleDecrement}
                 />
             ))}
+
+            <NewCountry onAdd={handleAddCountry} />
+
         </div>
     );
 }
