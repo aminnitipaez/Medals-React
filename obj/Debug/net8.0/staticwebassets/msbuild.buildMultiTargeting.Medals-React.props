@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\Medals-React.props" />
-</Project>
