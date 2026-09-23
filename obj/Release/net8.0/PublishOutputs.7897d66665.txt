@@ -7,6 +7,8 @@ C:\Users\Andres\Desktop\WCTC\2026\Advance Web Services\Medals-React\bin\Publish\
 C:\Users\Andres\Desktop\WCTC\2026\Advance Web Services\Medals-React\bin\Publish\Medals-React.dll
 C:\Users\Andres\Desktop\WCTC\2026\Advance Web Services\Medals-React\bin\Publish\Medals-React.runtimeconfig.json
 C:\Users\Andres\Desktop\WCTC\2026\Advance Web Services\Medals-React\bin\Publish\Medals-React.pdb
+C:\Users\Andres\Desktop\WCTC\2026\Advance Web Services\Medals-React\bin\Publish\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Andres\Desktop\WCTC\2026\Advance Web Services\Medals-React\bin\Publish\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\Andres\Desktop\WCTC\2026\Advance Web Services\Medals-React\bin\Publish\Microsoft.Data.Sqlite.dll
 C:\Users\Andres\Desktop\WCTC\2026\Advance Web Services\Medals-React\bin\Publish\Microsoft.EntityFrameworkCore.dll
 C:\Users\Andres\Desktop\WCTC\2026\Advance Web Services\Medals-React\bin\Publish\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -14,6 +16,8 @@ C:\Users\Andres\Desktop\WCTC\2026\Advance Web Services\Medals-React\bin\Publish\
 C:\Users\Andres\Desktop\WCTC\2026\Advance Web Services\Medals-React\bin\Publish\Microsoft.EntityFrameworkCore.Sqlite.dll
 C:\Users\Andres\Desktop\WCTC\2026\Advance Web Services\Medals-React\bin\Publish\Microsoft.Extensions.DependencyModel.dll
 C:\Users\Andres\Desktop\WCTC\2026\Advance Web Services\Medals-React\bin\Publish\Microsoft.OpenApi.dll
+C:\Users\Andres\Desktop\WCTC\2026\Advance Web Services\Medals-React\bin\Publish\Newtonsoft.Json.dll
+C:\Users\Andres\Desktop\WCTC\2026\Advance Web Services\Medals-React\bin\Publish\Newtonsoft.Json.Bson.dll
 C:\Users\Andres\Desktop\WCTC\2026\Advance Web Services\Medals-React\bin\Publish\SQLitePCLRaw.batteries_v2.dll
 C:\Users\Andres\Desktop\WCTC\2026\Advance Web Services\Medals-React\bin\Publish\SQLitePCLRaw.core.dll
 C:\Users\Andres\Desktop\WCTC\2026\Advance Web Services\Medals-React\bin\Publish\SQLitePCLRaw.provider.e_sqlite3.dll
