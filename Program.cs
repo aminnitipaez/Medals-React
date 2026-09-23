@@ -17,7 +17,7 @@ builder.Services.AddCors(options =>
               .AllowAnyHeader()
               .AllowAnyMethod()
               // Anonymous origins NOT allowed for web sockets
-              .WithOrigins("http://localhost:5098", "https://aminnitipaez.github.io")
+              .WithOrigins("http://localhost:5173", "https://aminnitipaez.github.io")
               .AllowCredentials();
         });
 });
